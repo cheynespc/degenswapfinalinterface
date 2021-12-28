@@ -135,6 +135,14 @@
       "logoURI": "https://assets.spookyswap.finance/tokens/TSHARE.png",
       "bridgeId": "",
       "nativeChain": ""
+    },
+    {
+      "name": "Undead Finance",
+      "address": "0x551C61DB482289994e7d426Fc4DB6493918bB81D",
+      "symbol": "UNDEAD",
+      "decimals": 18,
+      "chainId": 250,
+      "logoURI": "https://fantom-exchange.jetswap.finance/images/coins/undead.png"
     }
   ]
 }

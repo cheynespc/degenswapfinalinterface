@@ -1,6 +1,6 @@
 import { ChainId, JSBI, Percent, Token, WETH } from 'jetswap-sdk-fantom'
 
-export const ROUTER_ADDRESS = '0xD59d915ee84E7c39098589A4715Dc6d0dcF9c4eC'
+export const ROUTER_ADDRESS = '0x37bCecD41b45B13E3a12ed7e1dBAF8b40Df041C0'
 // 0xD59d915ee84E7c39098589A4715Dc6d0dcF9c4eCorig
 // a list of tokens by chain
 type ChainTokenList = {
@@ -15,8 +15,7 @@ export const DOPE = new Token(ChainId.MAINNET, '0x9F3c6e1bD483cd977DF9B36734E1cD
 export const BLOW = new Token(ChainId.MAINNET, '0x63C4DbC02c6198daaE6adac6190d575541E2E2e0', 18, 'BLOW', 'BLOW Token Degen Haus')
 
 const WETH_ONLY: ChainTokenList = {
-  [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
-  [ChainId.BSCTESTNET]: [WETH[ChainId.BSCTESTNET]],
+  [ChainId.MAINNET]: [WETH[ChainId.MAINNET]]
 }
 
 // used to construct intermediary pairs for trading

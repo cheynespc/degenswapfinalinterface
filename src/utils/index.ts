@@ -18,8 +18,7 @@ export function isAddress(value: any): string | false {
 }
 
 const FANTOMSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  250: '',
-  4002: ''
+  250: ''
 }
 
 export function getFantomScanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {

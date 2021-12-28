@@ -1,10 +1,10 @@
 import { ChainId, JSBI, Percent, Token, WETH } from 'jetswap-sdk-fantom'
 
-<<<<<<< Updated upstream
-export const ROUTER_ADDRESS = '0xD59d915ee84E7c39098589A4715Dc6d0dcF9c4eC'
-=======
+// <<<<<<< Updated upstream
+// export const ROUTER_ADDRESS = '0xD59d915ee84E7c39098589A4715Dc6d0dcF9c4eC'
+// =======
 export const ROUTER_ADDRESS = '0x0862eBa8131513aEaf57AAa74fA44b5faF61857D'
->>>>>>> Stashed changes
+// >>>>>>> Stashed changes
 // 0xD59d915ee84E7c39098589A4715Dc6d0dcF9c4eCorig
 // a list of tokens by chain
 type ChainTokenList = {
